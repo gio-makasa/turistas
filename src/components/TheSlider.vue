@@ -29,6 +29,7 @@ import { ref } from "vue";
 
 let slideIndex = ref(1);
 const images: string[] = [
+  "./src/assets/slides/turistas.png",
   "./src/assets/slides/cruise.jpg",
   "./src/assets/slides/mountain.jpg",
   "./src/assets/slides/beach.jpeg",
@@ -86,6 +87,10 @@ function currentSlide(n: number) {
     transition: 0.6s ease;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.5);
+
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.8);
+    }
   }
 
   .prev {
@@ -103,24 +108,25 @@ function currentSlide(n: number) {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 1rem;
 
     .dot {
       cursor: pointer;
       height: 15px;
       width: 15px;
       margin: 0 2px;
-      background-color: rgb(66, 66, 66);
+      background-color: grey;
       border-radius: 50%;
       display: inline-block;
       transition: background-color 0.6s ease;
 
       &:hover {
-        background-color: rgb(0, 80, 0);
+        background-color: var(--main-yellow);
       }
     }
 
     .active {
-      background-color: var(--main-green);
+      background-color: var(--main-red);
     }
   }
 }
