@@ -16,8 +16,6 @@
 </template>
 
 <script lang="ts" setup>
-import Vue from "vue";
-
 interface service {
   img: string;
   name: string;
@@ -65,6 +63,7 @@ section {
 
   h3 {
     font-size: 2rem;
+    text-transform: capitalize;
   }
 
   #services {

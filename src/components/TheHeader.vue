@@ -11,9 +11,6 @@
   </header>
 </template>
 
-<script setup>
-</script>
-
 <style lang="scss" scoped>
 header {
   position: relative;
