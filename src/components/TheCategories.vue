@@ -93,6 +93,7 @@ section {
         background-size: cover;
         background-image: inherit;
         filter: brightness(20%);
+        transition: 0.5s;
       }
 
       &:hover {
