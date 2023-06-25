@@ -41,13 +41,13 @@ header {
       }
 
       &:hover {
-        border-bottom: var(--main-green) 0.5rem solid;
+        border-bottom: orangered 0.5rem solid;
       }
     }
   }
 
   button {
-    background-color: var(--main-green);
+    background-color: orangered;
     padding: 0.5rem 1.5rem;
     margin-right: 1rem;
     font-size: 1.1rem;
