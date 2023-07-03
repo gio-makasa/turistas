@@ -6,6 +6,7 @@
       <a>services</a>
       <a>tours</a>
       <a>popular</a>
+      <a>blog</a>
     </nav>
     <button>Log In</button>
   </header>
