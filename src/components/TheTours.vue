@@ -5,9 +5,9 @@
     <div id="tours">
       <div class="service" v-for="service of services" :key="service.name">
         <img :src="service.img" :alt="service.name" />
-        <span>${{service.price}}/person</span>
+        <span>${{ service.price }}/person</span>
         <h4>{{ service.name }}</h4>
-        <p>{{service.time}}</p>
+        <p>{{ service.time }}</p>
       </div>
     </div>
   </section>
@@ -51,7 +51,7 @@ const services: tour[] = [
 
 <style lang="scss" scoped>
 section {
-  padding: 0 1rem;
+  padding: 3rem 1rem 0;
 
   h3 {
     font-size: 2rem;

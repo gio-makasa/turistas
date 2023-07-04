@@ -53,7 +53,7 @@ const categories: category[] = [
 
 <style lang="scss" scoped>
 section {
-  padding: 0 1rem;
+  padding: 3rem 1rem 0;
 
   h3 {
     font-size: 2rem;

@@ -59,7 +59,7 @@ const services: service[] = [
 
 <style lang="scss" scoped>
 section {
-  padding: 0 1rem;
+  padding: 3rem 1rem 0;
 
   h3 {
     font-size: 2rem;
@@ -98,7 +98,7 @@ section {
         color: rgba(0, 0, 0, 0.8);
       }
 
-      &:hover{
+      &:hover {
         box-shadow: 0 0 1rem black;
       }
     }
