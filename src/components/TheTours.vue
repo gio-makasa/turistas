@@ -51,13 +51,6 @@ const services: tour[] = [
 
 <style lang="scss" scoped>
 section {
-  padding: 3rem 1rem 0;
-
-  h3 {
-    font-size: 2rem;
-    text-transform: capitalize;
-  }
-
   #tours {
     display: flex;
     justify-content: space-between;
